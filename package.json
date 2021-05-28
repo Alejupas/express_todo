@@ -1,0 +1,25 @@
+{
+  "name": "express_todoapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejupas/express_todo.git"
+  },
+  "keywords": [
+    "kw"
+  ],
+  "author": "MK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alejupas/express_todo/issues"
+  },
+  "homepage": "https://github.com/Alejupas/express_todo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
