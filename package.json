@@ -21,5 +21,6 @@
   "homepage": "https://github.com/Alejupas/express_todo#readme",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }
