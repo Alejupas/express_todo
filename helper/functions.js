@@ -12,7 +12,13 @@ function handleFindErr(paramId, res) {
     .json({ error: `todo with id: ${paramId} does not exist` });
 }
 
+function handleDelete(found) {
+  const index = todoDb.indexOf(found);
+  todoDb.splice(index, 1);
+}
+
 module.exports = {
   findTodoWithId,
   handleFindErr,
+  handleDelete,
 };
